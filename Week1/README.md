@@ -38,14 +38,14 @@ Met als doel erachter komen dat je misschien aannames hebt die niet kloppen, en 
 #### Uitleg
 Onderzoek minimaal twee features. Dat betekent uitvogelen wat het voor impact heeft op de sites die je kent en normaal gebruikt. Kies sites in je directe omgeving: van je werkgever, lokale vereniging, de cafetaria om de hoek, en/of eerdere projecten die je zelf gedaan hebt.
 
-1. Afbeeldingen uitzetten
+1. # Afbeeldingen uitzetten
 2. Custom fonts uitzetten
 3. Javascript (volledig)
 4. Kleur uitzetten & kleurenblindheid instellen
 5. Breedband internet uitzetten
 6. Cookies
 8. localStorage doet het niet
-9. Muis/Trackpad werkt niet
+9. # Muis/Trackpad werkt niet
 
 a. Wifi hotspots/HTTPS
 b. Content blockers

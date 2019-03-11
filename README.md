@@ -1,3 +1,29 @@
+# Onderzoek
+### Afbeeldingen
+* Lazy loading [meer...](https://css-tricks.com/the-complete-guide-to-lazy-loading-images/)
+    * Intersection Observer API [meer...](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+    * Uitleg meerdere methodes voor lazy loading [Klik](https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/)
+* Afbeeldingen vervangen door andere methodes zoals:
+    * video?
+    * fonts?
+    * SVG?
+    
+#### Voor en nadelen
+__Voordelen__:
+* Afbeeldingen communiceren op sommige websites meer dan dat de tekst dat doet, hierdoor worden ze plotseling onmisbaar. 
+
+__Nadelen__: 
+* Ze kunnen de laad tijd van de website aanzienlijk vertragen. Aangezien ze in de DOM worden ingeladen, heeft de gebruiker hier veel last van. 
+   
+    
+
+    
+### Muis/Trackpad
+* Zonder muis uit te voeten met chrome shortcuts [meer...](https://support.google.com/chrome/answer/157179?hl=nl)
+* Muis laten bewegen met voice command. Idee: Beweeg muis als schaakbord: "*Toren naar D2*"
+    * Hier bestaan technieken voor [meer...](https://www.nuance.com/products/help/dragon/dragon-for-pc/enx/professionalgroup/main/Content/CommandandControl/using_your_mouse.htm)
+
+
 # Browser Technologies @cmda-minor-web 1819
 //Robuuste, toegankelijke websites leren bouwen …
 

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="996d3ad8-1d75-41e3-8f77-36a4ae997c9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Week1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,10 +20,22 @@
         <entry file="file://$PROJECT_DIR$/Week1/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="495">
-                <caret line="33" column="87" selection-start-line="33" selection-start-column="87" selection-end-line="33" selection-end-column="87" />
+              <first_editor relative-caret-position="437">
+                <caret line="67" column="101" selection-start-line="67" selection-start-column="101" selection-end-line="67" selection-end-column="101" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#defs#0;n#svg#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,6 +49,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Week1/index.html" />
         <option value="$PROJECT_DIR$/Week1/README.md" />
       </list>
     </option>
@@ -105,12 +119,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552301545142</updated>
       <workItem from="1552301546541" duration="4523000" />
-      <workItem from="1552480064721" duration="1808000" />
+      <workItem from="1552480064721" duration="4474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6331000" />
+    <option name="totallyTimeSpent" value="8997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="713" extended-state="6" />
@@ -150,11 +164,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week1/src/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1/src/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#defs#0;n#svg#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week1/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="495">
-            <caret line="33" column="87" selection-start-line="33" selection-start-column="87" selection-end-line="33" selection-end-column="87" />
+          <first_editor relative-caret-position="437">
+            <caret line="67" column="101" selection-start-line="67" selection-start-column="101" selection-end-line="67" selection-end-column="101" />
           </first_editor>
           <second_editor />
         </state>

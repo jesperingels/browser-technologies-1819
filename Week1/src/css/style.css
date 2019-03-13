@@ -1,0 +1,120 @@
+body {
+    background-color: #2c8cff;
+    font-family: sans-serif;
+}
+
+video {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+svg {
+    width: 300px;
+    overflow: unset;
+}
+
+.book-info {
+    background: white;
+    max-width: 500px;
+    display: none;
+    justify-content: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 15px;
+}
+
+.book-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#AR {
+    display: none;
+    margin: 25px 0;
+}
+
+#loader {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    display: none;
+    z-index: 9999;
+    flex-direction: column;
+}
+
+.button {
+    max-width: 192px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 9px;
+    border-radius: 50px;
+    background: #ff5757;
+    color: white;
+}
+
+#scan {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    display: block;
+    width: 200px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+#loader-last {
+    transform-origin: 85% 60%;
+    transform: translateX(-10px);
+    animation: rotate 1s infinite;
+}
+
+.a-enter-vr.embedded,
+#arjsDebugUIContainer,
+#reset{
+    display: none;
+}
+
+#reset {
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 200px;
+}
+
+@keyframes rotate {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}
+
+
+
+
+
+
+
+
+
+

@@ -67,6 +67,26 @@ wel op de 1e knop kan klikken door eerst quagga.js (barcode library) in te laden
 Vervolgens een script wat een event listener toevoegd aan de knop. en daarna de andere libraries pas
 die ik ook pas na het scannen van de barcode nodig heb. *Dit werkt alleen door het async in te laden*
 
+#### Javascript
+Omdat ik heel veel libraries inlaadt zal het concept een beetje verloren gaan als alle javascript wordt 
+uitgeschakeld. Ik kan wel de basis functionaliteit behouden door zelf een vervanging 
+voor de libraries te maken. 
+
+__Wat kan ik aanpassen in de code?__ <br/>
+* Barcode scanner library (quagga.js) verwijderen. Een input veld toevoegen op de plek
+van de barcode scanner, zodat de gebruiker handmatig de isbn-code kan invoeren.
+
+* De data die normaal gesproken via een api request zou binnen komen, lokaal opslaan.
+Op deze manier kan er maar een bepaald aantal boeken worden gescand. 
+
+* In plaats van de AR video die bij het boek hoort, zonder AR afspelen. 
+
+#### Cookies
+De app maakt geen gebruik van cookies...
+
+#### localStorage
+De app maakt geen gebruik van localStorage...
+
 
 
 

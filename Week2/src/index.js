@@ -21,6 +21,7 @@ function home(req, res) {
 }
 
 function saveForm(req, res) {
+    console.log(req)
     console.log(req.body);
     let name = req.body.name;
     let date = req.body.date;
@@ -28,10 +29,8 @@ function saveForm(req, res) {
     db.user.push(name);
 
     for(let i = 0; i < db.user.length; i++) {
-        db.user[i]
+        let user = db.user[i];
     }
-
-
 
     res.send('<h1>form sent</h1>');
 }

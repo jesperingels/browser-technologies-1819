@@ -1,7 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-// const app = express();
 const PORT = 3030;
+
+const db = {
+    user: [{jesper:{k:1}}]
+};
 
 express()
     .set('view engine', 'ejs')
@@ -9,31 +12,27 @@ express()
     .use(express.static('public'))
     .use(bodyParser.urlencoded({extended: true}))
     .get('/', home)
-    .post('/', form)
+    .post('/', saveForm)
     .listen(PORT, console.log('listening on port: ' + PORT));
 
 function home(req, res) {
     res.render('pages/index.ejs');
-    console.log('served index.ejs from pages')
+    console.log('served index.ejs from pages');
 }
 
-function form(req, res) {
+function saveForm(req, res) {
     console.log(req.body);
-    res.send('<h1>form sent</h1>')
+    let name = req.body.name;
+    let date = req.body.date;
+    let colour = req.body.colour;
+    db.user.push(name);
+
+    for(let i = 0; i < db.user.length; i++) {
+        db.user[i]
+    }
+
+
+
+    res.send('<h1>form sent</h1>');
 }
 
-
-// app.set('view engine', 'ejs');
-//
-// app.use(express.static('public'));
-// app.use(express.bodyParser());
-//
-// app.get('/', function (req, res) {
-//     res.render('pages/index');
-// });
-//
-// app.post('/data', function (req, res) {
-//     console.log(req.body);
-// });
-//
-// app.listen(port, () => console.log(`App listening on port ${port}!`));

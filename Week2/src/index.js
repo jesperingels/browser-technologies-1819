@@ -24,10 +24,10 @@ function home(req, res) {
 function quest1(req, res) {
     console.log(req);
     console.log(req.body);
-    let name = req.body.name;
-    let date = req.body.date;
-    let colour = req.body.colour;
-    db.user.push(name);
+    // let name = req.body.name;
+    // let date = req.body.date;
+    // let colour = req.body.colour;
+    // db.user.push(name);
 
     for(let i = 0; i < db.user.length; i++) {
         let user = db.user[i];

@@ -12,7 +12,8 @@ express()
     .use(express.static('public'))
     .use(bodyParser.urlencoded({extended: true}))
     .get('/', home)
-    .post('/', saveForm)
+    .post('/vraag2', quest1)
+    .get('/vraag2', )
     .listen(PORT, console.log('listening on port: ' + PORT));
 
 function home(req, res) {
@@ -20,8 +21,8 @@ function home(req, res) {
     console.log('served index.ejs from pages');
 }
 
-function saveForm(req, res) {
-    console.log(req)
+function quest1(req, res) {
+    console.log(req);
     console.log(req.body);
     let name = req.body.name;
     let date = req.body.date;

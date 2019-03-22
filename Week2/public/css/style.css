@@ -1,0 +1,50 @@
+body {
+    background-color: #f1f6ff ;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border-radius: 50px;
+    background: #6245ff;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+form {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+input, select {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 7px;
+    margin-bottom: 20px;
+}
+
+input[name='colour'] {
+    height: 40px;
+}
+
+@supports (display: flex) {
+    form {
+        width: unset;
+        margin: unset;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}

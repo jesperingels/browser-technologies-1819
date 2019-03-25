@@ -37,7 +37,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.get('/', home);
 app.post('/vraag2', quest1);
 app.post('/vraag3', quest2 );
-app.post('/overview', overview);
+app.post('/data', data);
+app.get('/overview', overview);
 
 app.listen(PORT, console.log(`listening on port: ${PORT}`));
 
@@ -103,8 +104,7 @@ function quest2(req, res) {
     console.log('served vraag3.ejs from pages');
 }
 
-function overview(req, res) {
-
+function data(req,res) {
     fs.readFile('public/db/db.txt', 'utf8', function readFileCallback(err, db){
         if (err){
             console.log(err);
@@ -125,6 +125,10 @@ function overview(req, res) {
                 console.log("Successfully Written to File.");
             }); // write it back
         }});
+    res.render('pages/sent.ejs');
+}
+
+function overview(req, res) {
 
     fs.readFile('public/db/db.txt', 'utf8', function (err, db) {
         const obj = JSON.parse(db);
@@ -133,19 +137,10 @@ function overview(req, res) {
         //         //     console.log(obj.res[i].question1.name);
         //         // }
 
-        console.log(obj.res[1])
+        console.log(obj.res[1]);
          // console.log(obj.res[0].question1.name);
 
         res.render('pages/overview.ejs', {
-        // //     // name: db.question1.name,
-        // //     // date: db.question1.date,
-        // //     // colour: db.question1.colour,
-        // //     // animal: db.question2.animal,
-        // //     // movie: db.question2.movie,
-        // //     // education: db.question2.education,
-        // //     // drink: db.question2.drink,
-        // //     // season: db.question2.season,
-        // age: db.question2.age
             data: obj.res
          })
 

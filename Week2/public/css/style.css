@@ -2,6 +2,14 @@ body {
     background-color: #f1f6ff ;
 }
 
+section {
+    margin-bottom: 5px;
+}
+
+progress {
+    width: 100%;
+}
+
 ul {
     list-style: none;
 }

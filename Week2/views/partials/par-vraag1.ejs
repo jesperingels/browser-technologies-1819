@@ -1,10 +1,40 @@
 <main>
-    <section>
+    <section id="nojs-form">
         <form action="/vraag2" method="post">
             <input name="name" type="text" placeholder="Name..."/>
             <input name="date" type="date" placeholder="dd-mm-jjjj"/>
             <input name="colour" type="color"/>
             <button type="submit">Volgende</button>
         </form>
+    </section>
+
+    <progress value="0" max="100"></progress>
+    <section class="js-form" style="display: none">
+        <form action="/vraag2" method="post" id="form1">
+            <input name="name" type="text" placeholder="Name..."/>
+            <input name="date" type="date" placeholder="dd-mm-jjjj"/>
+            <input name="colour" type="color"/>
+        </form>
+    </section>
+    <section class="js-form" style="display: none">
+        <form action="/vraag3" method="post" id="form2">
+            <input name="animal" type="text" placeholder="Favorite animal..."/>
+            <input name="movie" type="text" placeholder="Favorite movie..."/>
+            <input name="education" type="text" placeholder="education..."/>
+        </form>
+    </section>
+    <section class="js-form" style="display: none">
+        <form action="/data" method="post" id="form3">
+            <input name="drink" type="text" placeholder="Favorite drink..."/>
+            <label>Favorite season:</label>
+            <select name="season">
+                <option value="summer">Summer</option>
+                <option value="winter">Winter</option>
+                <option value="spring">Spring</option>
+                <option value="autumn">Autumn</option>
+            </select>
+            <input name="age" type="text" placeholder="Your age..."/>
+        </form>
+        <button id="send-form">Verstuur</button>
     </section>
 </main>

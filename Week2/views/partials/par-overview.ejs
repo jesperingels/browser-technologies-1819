@@ -2,15 +2,33 @@
     <section>
         <h1>Overzicht</h1>
         <ul>
-            <li>Name = <%=name%></li>
-            <li>Date = <%=date%></li>
-            <li>colour = <%=colour%></li>
-            <li>animal = <%=animal%></li>
-            <li>movie = <%=movie%></li>
-            <li>education = <%=education%></li>
-            <li>drink = <%=drink%></li>
-            <li>season = <%=season%></li>
-            <li>age = <%=age%></li>
+            <li>Name = <% for(let i=0; i < data.length; i++) {
+                data[i].question1.name
+                } %></li>
+            <li>Date = <%=data.forEach(function (prop) {
+                    prop.question1.date
+                })%></li>
+            <li>colour = <%=data.forEach(function (prop) {
+                    prop.question1.colour
+                })%></li>
+            <li>animal = <%=data.forEach(function (prop) {
+                    prop.question2.animal
+                })%></li>
+            <li>movie = <%=data.forEach(function (prop) {
+                    prop.question2.movie
+                })%></li>
+            <li>education = <%=data.forEach(function (prop) {
+                    prop.question2.education
+                })%></li>
+            <li>drink = <%=data.forEach(function (prop) {
+                    prop.question3.drink
+                })%></li>
+            <li>season = <%=data.forEach(function (prop) {
+                    prop.question3.season
+                })%></li>
+            <li>age = <%=data.forEach(function (prop) {
+                    prop.question3.age
+                })%></li>
         </ul>
     </section>
 </main>

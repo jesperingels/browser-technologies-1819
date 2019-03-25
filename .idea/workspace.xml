@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="996d3ad8-1d75-41e3-8f77-36a4ae997c9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week2/views/pages/overview.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/views/pages/vraag2.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/views/pages/vraag3.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/views/partials/par-overview.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/views/partials/par-vraag2.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/views/partials/par-vraag3.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week2/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/views/pages/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/views/pages/vraag1.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/views/partials/main.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/views/partials/par-vraag1.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/views/partials/par-overview.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/views/partials/par-overview.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,67 +23,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week2/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="50" column="73" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
+            <state relative-caret-position="897">
+              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2/views/partials/par-vraag2.ejs">
+        <entry file="file://$PROJECT_DIR$/Week2/public/db/db.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2/views/pages/vraag1.ejs">
+        <entry file="file://$PROJECT_DIR$/Week2/views/partials/par-overview.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="30" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week2/views/partials/par-vraag1.ejs">
+        <entry file="file://$PROJECT_DIR$/Week2/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2/views/partials/par-vraag3.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2/public/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2/views/partials/head.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fs</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,11 +83,14 @@
         <option value="$PROJECT_DIR$/Week2/views/partials/par-vraag2.ejs" />
         <option value="$PROJECT_DIR$/Week2/views/pages/vraag3.ejs" />
         <option value="$PROJECT_DIR$/Week2/views/pages/overview.ejs" />
-        <option value="$PROJECT_DIR$/Week2/views/partials/par-overview.ejs" />
         <option value="$PROJECT_DIR$/Week2/views/partials/par-vraag3.ejs" />
         <option value="$PROJECT_DIR$/Week2/public/css/style.css" />
-        <option value="$PROJECT_DIR$/Week2/src/index.js" />
         <option value="$PROJECT_DIR$/Week2/views/partials/par-vraag1.ejs" />
+        <option value="$PROJECT_DIR$/Week2/public/db/db.js" />
+        <option value="$PROJECT_DIR$/Week2/public/db/db.txt" />
+        <option value="$PROJECT_DIR$/Week2/src/index.js" />
+        <option value="$PROJECT_DIR$/Week2/views/partials/par-overview.ejs" />
+        <option value="$PROJECT_DIR$/Week2/.gitignore" />
       </list>
     </option>
   </component>
@@ -140,39 +116,6 @@
               <item name="browser-technologies-1819" type="b2602c69:ProjectViewProjectNode" />
               <item name="browser-technologies-1819" type="462c0819:PsiDirectoryNode" />
               <item name="Week2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="browser-technologies-1819" type="b2602c69:ProjectViewProjectNode" />
-              <item name="browser-technologies-1819" type="462c0819:PsiDirectoryNode" />
-              <item name="Week2" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="browser-technologies-1819" type="b2602c69:ProjectViewProjectNode" />
-              <item name="browser-technologies-1819" type="462c0819:PsiDirectoryNode" />
-              <item name="Week2" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="browser-technologies-1819" type="b2602c69:ProjectViewProjectNode" />
-              <item name="browser-technologies-1819" type="462c0819:PsiDirectoryNode" />
-              <item name="Week2" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="browser-technologies-1819" type="b2602c69:ProjectViewProjectNode" />
-              <item name="browser-technologies-1819" type="462c0819:PsiDirectoryNode" />
-              <item name="Week2" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="browser-technologies-1819" type="b2602c69:ProjectViewProjectNode" />
-              <item name="browser-technologies-1819" type="462c0819:PsiDirectoryNode" />
-              <item name="Week2" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,17 +167,18 @@
       <workItem from="1553249808667" duration="643000" />
       <workItem from="1553251760478" duration="260000" />
       <workItem from="1553254876450" duration="4869000" />
+      <workItem from="1553507300302" duration="6801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24876000" />
+    <option name="totallyTimeSpent" value="31677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="713" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16558966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16801292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -309,13 +253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week2/views/pages/vraag2.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -337,13 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/views/partials/par-overview.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week2/views/partials/par-vraag3.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -358,38 +288,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/Week2/views/partials/par-vraag1.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="50" column="73" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/views/partials/par-vraag2.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="60">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week2/views/pages/vraag1.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/views/partials/par-vraag1.ejs">
+    <entry file="file://$PROJECT_DIR$/Week2/views/partials/par-vraag2.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        <state relative-caret-position="135">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/temp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/public/db/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/public/db/db.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/public/db/db.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/views/partials/par-overview.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>

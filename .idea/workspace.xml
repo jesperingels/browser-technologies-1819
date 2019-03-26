@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="996d3ad8-1d75-41e3-8f77-36a4ae997c9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week2/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/views/pages/sent.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/public/db/db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/public/db/db.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/views/partials/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/views/partials/footer.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/views/partials/par-overview.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/views/partials/par-overview.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/views/partials/par-vraag1.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/views/partials/par-vraag1.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/views/partials/par-vraag3.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/views/partials/par-vraag3.ejs" afterDir="false" />
-    </list>
+    <list default="true" id="996d3ad8-1d75-41e3-8f77-36a4ae997c9d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -270,12 +259,12 @@
       <workItem from="1553249808667" duration="643000" />
       <workItem from="1553251760478" duration="260000" />
       <workItem from="1553254876450" duration="4869000" />
-      <workItem from="1553507300302" duration="15833000" />
+      <workItem from="1553507300302" duration="15863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40709000" />
+    <option name="totallyTimeSpent" value="40739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="713" extended-state="6" />

@@ -4,7 +4,7 @@ Ik wil een enquete kunnen invullen, met verschillende antwoord mogelijkheden, al
 
 ## Concept
 __Webflow__
-![Webflow](Week2/public/img/webFlow.jpg)
+![Webflow](public/img/webFlow.jpg)
 
 ### Core functionaliteit
 1. In de app kan de gebruiker een enquête invullen. Wanneer deze volledig is ingevuld en de gebruiker op <kbd>Verzend</kbd> heeft gedrukt wordt er een overzichts pagina getoond met de data van alle ingevulde enguêtes.

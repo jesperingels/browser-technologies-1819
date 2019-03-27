@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="996d3ad8-1d75-41e3-8f77-36a4ae997c9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/public/db/db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/public/db/db.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/views/partials/par-vraag1.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/views/partials/par-vraag1.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week2/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+            <state relative-caret-position="342">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -37,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week2/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
+            <state relative-caret-position="630">
               <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
             </state>
           </provider>
@@ -49,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week2/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="675">
               <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
             </state>
           </provider>
@@ -86,13 +82,13 @@
         <option value="$PROJECT_DIR$/Week2/views/partials/par-vraag3.ejs" />
         <option value="$PROJECT_DIR$/Week2/public/db/db.txt" />
         <option value="$PROJECT_DIR$/Week2/views/pages/vraag3.ejs" />
-        <option value="$PROJECT_DIR$/Week2/src/index.js" />
         <option value="$PROJECT_DIR$/Week2/views/pages/sent.ejs" />
         <option value="$PROJECT_DIR$/Week2/views/partials/footer.ejs" />
         <option value="$PROJECT_DIR$/Week2/.gitignore" />
         <option value="$PROJECT_DIR$/Week2/views/partials/par-vraag1.ejs" />
         <option value="$PROJECT_DIR$/Week2/public/css/style.css" />
         <option value="$PROJECT_DIR$/Week2/public/js/app.js" />
+        <option value="$PROJECT_DIR$/Week2/src/index.js" />
       </list>
     </option>
   </component>
@@ -106,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,7 +132,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,17 +181,18 @@
       <workItem from="1553507300302" duration="15863000" />
       <workItem from="1553589512906" duration="1223000" />
       <workItem from="1553591574233" duration="488000" />
+      <workItem from="1553681483293" duration="288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42450000" />
+    <option name="totallyTimeSpent" value="42738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="713" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17285945" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17528272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -364,20 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week2/views/partials/par-vraag1.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -385,10 +368,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week2/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
+        <state relative-caret-position="630">
           <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
         </state>
       </provider>
     </entry>

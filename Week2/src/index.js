@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const app = express();
-const PORT = 3030;
+const port = process.env.PORT || 3000;
 
 const db = {
     res: [{
@@ -40,7 +40,7 @@ app.post('/vraag3', quest2 );
 app.post('/data', data);
 app.get('/overview', overview);
 
-app.listen(PORT, console.log(`listening on port: ${PORT}`));
+app.listen(PORT, console.log(`listening on port: ${port}`));
 
 
 function home(req, res) {

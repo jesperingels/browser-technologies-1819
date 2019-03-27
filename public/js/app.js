@@ -5,14 +5,14 @@ const form3 = document.getElementById('form3');
 const input = document.querySelectorAll('input');
 const progress = document.querySelector('progress');
 
-forms.forEach(prop => {
+forms.forEach(function (prop) {
     prop.style.display = 'flex';
 });
 
 document.getElementById('nojs-form').style.display = 'none';
 
 // Submit all forms on click
-document.getElementById('send-form').addEventListener('click', ()=>{
+document.getElementById('send-form').addEventListener('click', function () {
     form1.submit();
     form2.submit();
     form3.submit();

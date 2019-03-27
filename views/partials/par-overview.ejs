@@ -1,135 +1,132 @@
-<main>
+<main class="overview">
     <section>
         <h1>Overzicht</h1>
-        <ul>
+        <div>
             <ol>
+                <h4>Name</h4>
                 <% for(var key in data){ %>
-                        <% if(data.hasOwnProperty(key)){%>
-                           <% for(var prop in data[key]){ %>
-                                <%for(var name in data[key][prop]){%>
-                                    <%if(name == "name"){%>
-
-
-                                            <li> <%- name  %> - <%- data[key][prop][name] %></li>
-
-
-                                    <%}%>
-                                <%}}%>
+                    <% if(data.hasOwnProperty(key)){%>
+                        <% for(var prop in data[key]){ %>
+                        <%for(var name in data[key][prop]){%>
+                        <%if(name == "name"){%>
+                            <li> <%- data[key][prop][name] %></li>
                         <%}%>
+                        <%}}%>
+                    <%}%>
                 <%}%>
             </ol>
             <ol>
-                    <% for(var key in data){ %>
-                        <% if(data.hasOwnProperty(key)){%>
-                            <% for(var prop in data[key]){ %>
-                            <%for(var name in data[key][prop]){%>
-                            <%if(name == "date"){%>
+                <h4>Date</h4>
 
-                                    <li> <%- name  %> - <%- data[key][prop][name] %></li>
-
-                            <%}%>
-                            <%}}%>
+            <% for(var key in data){ %>
+                    <% if(data.hasOwnProperty(key)){%>
+                        <% for(var prop in data[key]){ %>
+                        <%for(var name in data[key][prop]){%>
+                        <%if(name == "date"){%>
+                            <li> <%- data[key][prop][name] %></li>
                         <%}%>
+                        <%}}%>
                     <%}%>
+                <%}%>
             </ol>
             <ol>
-                <% for(var key in data){ %>
+                <h4>Colour</h4>
+
+            <% for(var key in data){ %>
                     <% if(data.hasOwnProperty(key)){%>
                         <% for(var prop in data[key]){ %>
                         <%for(var name in data[key][prop]){%>
                         <%if(name == "colour"){%>
-
-                            <li> <%- name  %> - <%- data[key][prop][name] %></li>
-
+                            <li><%- data[key][prop][name] %></li>
                         <%}%>
                         <%}}%>
                     <%}%>
                 <%}%>
             </ol>
             <ol>
-                <% for(var key in data){ %>
+                <h4>Animal</h4>
+
+            <% for(var key in data){ %>
                     <% if(data.hasOwnProperty(key)){%>
                         <% for(var prop in data[key]){ %>
                         <%for(var name in data[key][prop]){%>
                         <%if(name == "animal"){%>
-
-                            <li> <%- name  %> - <%- data[key][prop][name] %></li>
-
+                            <li><%- data[key][prop][name] %></li>
                         <%}%>
                         <%}}%>
                     <%}%>
                 <%}%>
             </ol>
             <ol>
-                <% for(var key in data){ %>
+                <h4>Movie</h4>
+
+            <% for(var key in data){ %>
                     <% if(data.hasOwnProperty(key)){%>
                         <% for(var prop in data[key]){ %>
                         <%for(var name in data[key][prop]){%>
                         <%if(name == "movie"){%>
-
-                            <li> <%- name  %> - <%- data[key][prop][name] %></li>
-
+                            <li> <%- data[key][prop][name] %></li>
                         <%}%>
                         <%}}%>
                     <%}%>
                 <%}%>
             </ol>
             <ol>
-                <% for(var key in data){ %>
+                <h4>Education</h4>
+
+            <% for(var key in data){ %>
                     <% if(data.hasOwnProperty(key)){%>
                         <% for(var prop in data[key]){ %>
                         <%for(var name in data[key][prop]){%>
                         <%if(name == "education"){%>
-
-                            <li> <%- name  %> - <%- data[key][prop][name] %></li>
-
+                            <li> <%- data[key][prop][name] %></li>
                         <%}%>
                         <%}}%>
                     <%}%>
                 <%}%>
             </ol>
             <ol>
-                <% for(var key in data){ %>
+                <h4>Drink</h4>
+
+            <% for(var key in data){ %>
                     <% if(data.hasOwnProperty(key)){%>
                         <% for(var prop in data[key]){ %>
                         <%for(var name in data[key][prop]){%>
                         <%if(name == "drink"){%>
-
-                            <li> <%- name  %> - <%- data[key][prop][name] %></li>
-
+                            <li> <%- data[key][prop][name] %></li>
                         <%}%>
                         <%}}%>
                     <%}%>
                 <%}%>
             </ol>
             <ol>
-                <% for(var key in data){ %>
+                <h4>Season</h4>
+
+            <% for(var key in data){ %>
                     <% if(data.hasOwnProperty(key)){%>
                         <% for(var prop in data[key]){ %>
                         <%for(var name in data[key][prop]){%>
                         <%if(name == "season"){%>
-
-                            <li> <%- name  %> - <%- data[key][prop][name] %></li>
-
+                            <li><%- data[key][prop][name] %></li>
                         <%}%>
                         <%}}%>
                     <%}%>
                 <%}%>
             </ol>
             <ol>
-                <% for(var key in data){ %>
+                <h4>Age</h4>
+
+            <% for(var key in data){ %>
                     <% if(data.hasOwnProperty(key)){%>
                         <% for(var prop in data[key]){ %>
                         <%for(var name in data[key][prop]){%>
                         <%if(name == "age"){%>
-
-                            <li> <%- name  %> - <%- data[key][prop][name] %></li>
-
+                            <li> <%- data[key][prop][name] %></li>
                         <%}%>
                         <%}}%>
                     <%}%>
                 <%}%>
             </ol>
-        </ul>
+        </div>
     </section>
 </main>

@@ -10,16 +10,29 @@ progress {
     width: 100%;
 }
 
-ul {
-    list-style: none;
+
+ol {
+    width: 200px;
+    background: white;
+    margin-right: 25px;
 }
 
-button {
+ol li:nth-child(2n){
+    background: rgba(255, 0, 0, 0.35);
+}
+
+button, a {
     border-radius: 50px;
     background: #6245ff;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
+    padding: 9px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 form {
@@ -52,6 +65,11 @@ input[name='colour'] {
         margin: unset;
         display: flex;
         flex-direction: column;
+    }
+
+    .overview div {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     section {

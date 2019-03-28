@@ -7,8 +7,8 @@ __Webflow__
 ![Webflow](public/img/webFlow.jpg)
 
 ### Core functionaliteit
-1. In de app kan de gebruiker een enquête invullen. Wanneer deze volledig is ingevuld en de gebruiker op <kbd>Verzend</kbd> heeft gedrukt wordt er een overzichts pagina getoond met de data van alle ingevulde enguêtes.
-2. Wanneer de enquête voor de helft is ingevuld en de gebruiker de website verlaat en later terug komt zijn de eerder ingevulde antwoorden nog steeds ingevuld. 
+In de app kan de gebruiker een enquête invullen. Wanneer deze volledig is ingevuld en de gebruiker op <kbd>Verzend</kbd> heeft gedrukt wordt er een overzichts pagina getoond met de data van alle ingevulde enguêtes.
+ 
 
 #### Toepassen (code)
 De tweede funcionaliteit is lastig als ik er van uitga dat de gebruiker de app opent in de Opera-mini browser en javascript is uitgeschakeld. <br/>

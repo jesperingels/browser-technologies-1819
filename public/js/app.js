@@ -44,6 +44,12 @@ if(document.getElementById('send-form')) {
 
     // Increase
     userInputs.forEach(function(el){
+
+        // console.log(el.value);
+        if(localStorage.getItem(el.name)){
+            el.value = localStorage.getItem(el.name);
+        }
+
         el.addEventListener('change',function () {
             if(this.value === '' || this.value === null) {
                 this.className = this.className.replace(/\bdone\b/g, "");
@@ -56,7 +62,9 @@ if(document.getElementById('send-form')) {
                 }
             }
             progress.value = document.querySelectorAll(".done").length*10 + 20;
-            console.log(document.querySelectorAll(".done").length,this.value)
+            console.log(document.querySelectorAll(".done").length,this.value);
+
+            localStorage.setItem(this.getAttribute('name'), this.value);
         })
     });
 
@@ -76,8 +84,6 @@ if(document.getElementById('send-form')) {
 
 var forms = document.querySelectorAll('.js-form');
 var form1 = document.getElementById('form1');
-// var form2 = document.getElementById('form2');
-// var form3 = document.getElementById('form3');
 var input = document.querySelectorAll('input');
 var progress = document.querySelector('progress');
 

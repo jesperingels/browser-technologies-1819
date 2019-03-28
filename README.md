@@ -10,10 +10,5 @@ __Webflow__
 In de app kan de gebruiker een enquête invullen. Wanneer deze volledig is ingevuld en de gebruiker op <kbd>Verzend</kbd> heeft gedrukt wordt er een overzichts pagina getoond met de data van alle ingevulde enguêtes.
  
 
-#### Toepassen (code)
-De tweede funcionaliteit is lastig als ik er van uitga dat de gebruiker de app opent in de Opera-mini browser en javascript is uitgeschakeld. <br/>
-__Ideeën:__<br/>
-* Een server-side inlog-portaal maken. Zodat de app op basis van wie de gebruiker is de reeds ingevulde data kan ophalen en tonen.
-* De enquête opdelen in meerdere pagina's. Wanneer de gebruiker naar de volgende vraag gaat worden de ingevulde velden in de URL opgeslagen. Wanneer de gebruiker opnieuw de (web)app opent hoeft alleen maar de URl worden ingevoert die de gebruiker had. 
-Tuurlijk is dit niet veilig enzo. Maar wat betreft core func 
+## Progressive Enhancement 
 

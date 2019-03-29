@@ -13,19 +13,19 @@ if(document.querySelector('main') && !document.querySelector('main.overview')) {
         '        <progress value="0" max="100"></progress>\n' +
         '        <form action="/all-data" method="post" id="form1">\n' +
         '            <label for="name">Name:</label>\n'+
-        '            <input id="name" class=" " name="name" type="text" placeholder="Name..." required>\n' +
+        '            <input id="name" class=" " name="name" type="text" placeholder="Name..." required="true"/>\n' +
         '            <label for="date">Date:</label>\n'+
-        '            <input id="date" class=" " name="date" type="date" placeholder="dd-mm-jjjj" required>\n' +
+        '            <input id="date" class=" " name="date" type="date" placeholder="dd-mm-jjjj" required="true"/>\n' +
         '            <label for="colour">Colour:</label>\n'+
-        '            <input id="colour" class=" " name="colour" type="text" placeholder="Favorite colour..." required/>\n' +
+        '            <input id="colour" class=" " name="colour" type="text" placeholder="Favorite colour..." required="true"/>\n' +
         '            <label for="animal">Animal:</label>\n'+
-        '            <input id="animal" class=" " name="animal" type="text" placeholder="Favorite animal..." required/>\n' +
+        '            <input id="animal" class=" " name="animal" type="text" placeholder="Favorite animal..." required="true"/>\n' +
         '            <label for="movie">Movie:</label>\n'+
-        '            <input id="movie" class=" " name="movie" type="text" placeholder="Favorite movie..." required/>\n' +
+        '            <input id="movie" class=" " name="movie" type="text" placeholder="Favorite movie..." required="true"/>\n' +
         '            <label for="education">Education:</label>\n'+
-        '            <input id="education" class=" " name="education" type="text" placeholder="education..." required/>\n' +
+        '            <input id="education" class=" " name="education" type="text" placeholder="education..." required="true"/>\n' +
         '            <label for="drink">Drink:</label>\n'+
-        '            <input id="drink" class=" " name="drink" type="text" placeholder="Favorite drink..." required/>\n' +
+        '            <input id="drink" class=" " name="drink" type="text" placeholder="Favorite drink..." required="true"/>\n' +
         '            <label for="season">Favorite season:</label>\n' +
         '            <select id="season" name="season">\n' +
         '                <option value="summer">Summer</option>\n' +

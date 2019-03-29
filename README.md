@@ -29,6 +29,12 @@ In de app kan de gebruiker een enquête invullen. Wanneer deze volledig is ingev
  
 
 ## Progressive Enhancement 
+*Hoe heb ik Progressive Enhancement toegepast?* In het kort: Tijdens het bouwen van de app heb ik als 1e de core gemaakt.
+Zodat de core functionaliteit ten alle tijden werkt. Pas als 2e stap wanneer er __wel javascript__ is wordt het huidige formulier
+weggehaald en wordt het gehele formulier door javascript gerenderd. Ook wordt er een progress-bar toegevoegd en wordt de 
+ waarde van de inputvelden opgeslagen in ``localStorage``. De waardes worden vanzelf terug ingevuld mocht de 
+  gebruiker tussentijds de website verlaten. Als 3e en laastste stap is er een animatie toegevoegd 
+iets toevoegd aan de gebruikers ervaring.
 ### Functional/reliable
 __Javascript disabled__ <br/>
 Alle input velden worden opgesplitst in 3 delen. Zodat de data tussentijds opgeslagen kan worden, mocht de gebruiker perongeluk de website sluiten. 
@@ -43,13 +49,15 @@ Deze inputvelden worden via javascript met ``insertAdjecentHTML`` aan de html pa
 Ook wordt er een progress bar toegevoegd, deze wordt geupdate met Javascript.
 ![UsablePage](public/readmeimg/Usable2.png)
 
+Door gebruik te maken van localStorage worden de waardes van de inputvelden tijdelijk opgeslagen. Wanneer de gebruiker de website 
+verlaat en later weer terugkeert zijn alle inputvelden nog met dezelfde waardes ingevuld.
+![local storage](public/readmeimg/localstorageConsole.png)
+
+
 ### Pleasurable
 __Er wordt van een erg moderne browser uitgegaan__
 Wanneer de enquête wordt verstuurd is er een animatie waarbij de inputvelden inklappen.
 
-Door gebruik te maken van localStorage worden de waardes van de inputvelden tijdelijk opgeslagen. Wanneer de gebruiker de website 
-verlaat en later weer terugkeert zijn alle inputvelden nog met dezelfde waardes ingevuld.
-![local storage](public/readmeimg/localstorageConsole.png)
 
 
 ## Feature detection

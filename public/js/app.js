@@ -12,13 +12,13 @@ if(document.querySelector('main') && !document.querySelector('main.overview')) {
     document.querySelector('main').insertAdjacentHTML('beforeend', '  <section class="js-form">\n' +
         '        <progress value="0" max="100"></progress>\n' +
         '        <form action="/all-data" method="post" id="form1">\n' +
-        '            <input name="name" type="text" placeholder="Name..."/>\n' +
-        '            <input name="date" type="date" placeholder="dd-mm-jjjj"/>\n' +
-        '            <input name="colour" type="text" placeholder="Favorite colour..."/>\n' +
-        '            <input name="animal" type="text" placeholder="Favorite animal..."/>\n' +
-        '            <input name="movie" type="text" placeholder="Favorite movie..."/>\n' +
-        '            <input name="education" type="text" placeholder="education..."/>\n' +
-        '            <input name="drink" type="text" placeholder="Favorite drink..."/>\n' +
+        '            <input class=" " name="name" type="text" placeholder="Name..."/>\n' +
+        '            <input class=" " name="date" type="date" placeholder="dd-mm-jjjj"/>\n' +
+        '            <input class=" " name="colour" type="text" placeholder="Favorite colour..."/>\n' +
+        '            <input class=" " name="animal" type="text" placeholder="Favorite animal..."/>\n' +
+        '            <input class=" " name="movie" type="text" placeholder="Favorite movie..."/>\n' +
+        '            <input class=" " name="education" type="text" placeholder="education..."/>\n' +
+        '            <input class=" " name="drink" type="text" placeholder="Favorite drink..."/>\n' +
         '            <label>Favorite season:</label>\n' +
         '            <select name="season">\n' +
         '                <option value="summer">Summer</option>\n' +
@@ -34,18 +34,16 @@ if(document.querySelector('main') && !document.querySelector('main.overview')) {
 
 }
 
-if(document.getElementById('send-form')) {
-    document.getElementById('send-form').addEventListener('click', function () {
-        form1.submit();
-    });
+
 
     var userInputs = document.querySelectorAll('input[name]');
     var userSelect = document.querySelector("select");
+    var label = document.querySelector('label');
 
     // Increase
+if(userInputs) {
     userInputs.forEach(function(el){
 
-        // console.log(el.value);
         if(localStorage.getItem(el.name)){
             el.value = localStorage.getItem(el.name);
         }
@@ -67,14 +65,19 @@ if(document.getElementById('send-form')) {
             localStorage.setItem(this.getAttribute('name'), this.value);
         })
     });
+}
 
-    console.log(userInputs);
-
+if(userSelect) {
     userSelect.addEventListener('change',function () {
         if(this.value === '' || this.value === null) {
-            this.className.remove("done")
+            this.className = this.className.replace(/\bdone\b/g, "");
         } else {
-            this.className.add("done")
+            var name, arr;
+            name = "done";
+            arr = this.className.split(" ");
+            if (arr.indexOf(name) === -1) {
+                this.className += " " + name;
+            }
         }
         progress.value = document.querySelectorAll(".done").length*10;
         console.log(document.querySelectorAll(".done").length,this.value)
@@ -82,10 +85,38 @@ if(document.getElementById('send-form')) {
 }
 
 
+
 var forms = document.querySelectorAll('.js-form');
 var form1 = document.getElementById('form1');
 var input = document.querySelectorAll('input');
 var progress = document.querySelector('progress');
+var sendForm = document.getElementById('send-form');
+
+
+if(sendForm) {
+
+    sendForm.addEventListener('click', function () {
+        localStorage.clear();
+
+        userInputs.forEach(function(el){
+            el.style.webkitAnimationPlayState = 'running';
+        });
+
+        userSelect.style.webkitAnimationPlayState = 'running';
+        label.style.display = 'none';
+
+        setTimeout(function () {
+            form1.submit();
+        },2500 )
+
+    })
+}
+
+
+
+
+
+
 
 
 

@@ -48,6 +48,13 @@ input, select {
     border-radius: 50px;
     padding: 7px;
     margin-bottom: 20px;
+    animation: collapse 2s ease-in forwards;
+    animation-play-state: paused;
+}
+
+select, label {
+    animation: fade 2s ease-in forwards;
+    animation-play-state: paused;
 }
 
 input[name='colour'] {
@@ -78,4 +85,14 @@ input[name='colour'] {
         flex-direction: column;
         align-items: center;
     }
+}
+
+@keyframes collapse {
+    0% {transform: rotate3d(1,0,0, 0deg)}
+    100% {transform: rotate3d(1,0,0, 90deg)}
+}
+
+@keyframes fade {
+    0% {opacity: 1}
+    100% {opacity: 0}
 }

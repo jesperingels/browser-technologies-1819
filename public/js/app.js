@@ -12,13 +12,13 @@ if(document.querySelector('main') && !document.querySelector('main.overview')) {
     document.querySelector('main').insertAdjacentHTML('beforeend', '  <section class="js-form">\n' +
         '        <progress value="0" max="100"></progress>\n' +
         '        <form action="/all-data" method="post" id="form1">\n' +
-        '            <input class=" " name="name" type="text" placeholder="Name..."/>\n' +
-        '            <input class=" " name="date" type="date" placeholder="dd-mm-jjjj"/>\n' +
-        '            <input class=" " name="colour" type="text" placeholder="Favorite colour..."/>\n' +
-        '            <input class=" " name="animal" type="text" placeholder="Favorite animal..."/>\n' +
-        '            <input class=" " name="movie" type="text" placeholder="Favorite movie..."/>\n' +
-        '            <input class=" " name="education" type="text" placeholder="education..."/>\n' +
-        '            <input class=" " name="drink" type="text" placeholder="Favorite drink..."/>\n' +
+        '            <input class=" " name="name" type="text" placeholder="Name..." required>\n' +
+        '            <input class=" " name="date" type="date" placeholder="dd-mm-jjjj" required>\n' +
+        '            <input class=" " name="colour" type="text" placeholder="Favorite colour..." required/>\n' +
+        '            <input class=" " name="animal" type="text" placeholder="Favorite animal..." required/>\n' +
+        '            <input class=" " name="movie" type="text" placeholder="Favorite movie..." required/>\n' +
+        '            <input class=" " name="education" type="text" placeholder="education..." required/>\n' +
+        '            <input class=" " name="drink" type="text" placeholder="Favorite drink..." required/>\n' +
         '            <label>Favorite season:</label>\n' +
         '            <select name="season">\n' +
         '                <option value="summer">Summer</option>\n' +
@@ -26,7 +26,7 @@ if(document.querySelector('main') && !document.querySelector('main.overview')) {
         '                <option value="spring">Spring</option>\n' +
         '                <option value="autumn">Autumn</option>\n' +
         '            </select>\n' +
-        '            <input name="age" type="text" placeholder="Your age..."/>\n' +
+        '            <input name="age" type="text" placeholder="Your age..." required/>\n' +
         '        </form>\n' +
         '        <button id="send-form">Verstuur</button>\n' +
         '    </section>');

@@ -12,21 +12,29 @@ if(document.querySelector('main') && !document.querySelector('main.overview')) {
     document.querySelector('main').insertAdjacentHTML('beforeend', '  <section class="js-form">\n' +
         '        <progress value="0" max="100"></progress>\n' +
         '        <form action="/all-data" method="post" id="form1">\n' +
-        '            <input class=" " name="name" type="text" placeholder="Name..." required>\n' +
-        '            <input class=" " name="date" type="date" placeholder="dd-mm-jjjj" required>\n' +
-        '            <input class=" " name="colour" type="text" placeholder="Favorite colour..." required/>\n' +
-        '            <input class=" " name="animal" type="text" placeholder="Favorite animal..." required/>\n' +
-        '            <input class=" " name="movie" type="text" placeholder="Favorite movie..." required/>\n' +
-        '            <input class=" " name="education" type="text" placeholder="education..." required/>\n' +
-        '            <input class=" " name="drink" type="text" placeholder="Favorite drink..." required/>\n' +
-        '            <label>Favorite season:</label>\n' +
-        '            <select name="season">\n' +
+        '            <label for="name">Name:</label>\n'+
+        '            <input id="name" class=" " name="name" type="text" placeholder="Name..." required>\n' +
+        '            <label for="date">Date:</label>\n'+
+        '            <input id="date" class=" " name="date" type="date" placeholder="dd-mm-jjjj" required>\n' +
+        '            <label for="colour">Colour:</label>\n'+
+        '            <input id="colour" class=" " name="colour" type="text" placeholder="Favorite colour..." required/>\n' +
+        '            <label for="animal">Animal:</label>\n'+
+        '            <input id="animal" class=" " name="animal" type="text" placeholder="Favorite animal..." required/>\n' +
+        '            <label for="movie">Movie:</label>\n'+
+        '            <input id="movie" class=" " name="movie" type="text" placeholder="Favorite movie..." required/>\n' +
+        '            <label for="education">Education:</label>\n'+
+        '            <input id="education" class=" " name="education" type="text" placeholder="education..." required/>\n' +
+        '            <label for="drink">Drink:</label>\n'+
+        '            <input id="drink" class=" " name="drink" type="text" placeholder="Favorite drink..." required/>\n' +
+        '            <label for="season">Favorite season:</label>\n' +
+        '            <select id="season" name="season">\n' +
         '                <option value="summer">Summer</option>\n' +
         '                <option value="winter">Winter</option>\n' +
         '                <option value="spring">Spring</option>\n' +
         '                <option value="autumn">Autumn</option>\n' +
         '            </select>\n' +
-        '            <input name="age" type="text" placeholder="Your age..." required/>\n' +
+        '            <label for="age">Age:</label>\n'+
+        '            <input id="age" name="age" type="text" placeholder="Your age..." required/>\n' +
         '        </form>\n' +
         '        <button id="send-form">Verstuur</button>\n' +
         '    </section>');
@@ -98,12 +106,14 @@ if(sendForm) {
     sendForm.addEventListener('click', function () {
         localStorage.clear();
 
-        userInputs.forEach(function(el){
-            el.style.webkitAnimationPlayState = 'running';
-        });
+        if(userSelect.style.webkitAnimationPlayState !== undefined) {
+            userInputs.forEach(function(el){
+                el.style.webkitAnimationPlayState = 'running';
+            });
 
-        userSelect.style.webkitAnimationPlayState = 'running';
-        label.style.display = 'none';
+            userSelect.style.webkitAnimationPlayState = 'running';
+            label.style.display = 'none';
+        }
 
         if(typeof setTimeout == 'function') {
             setTimeout(function () {

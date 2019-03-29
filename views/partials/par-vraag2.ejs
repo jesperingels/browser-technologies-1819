@@ -1,9 +1,12 @@
 <main>
     <section>
         <form action="/vraag3" method="post">
-            <input name="animal" type="text" placeholder="Favorite animal..."/>
-            <input name="movie" type="text" placeholder="Favorite movie..."/>
-            <input name="education" type="text" placeholder="education..."/>
+            <label for="animal">Animal:</label>
+            <input id="animal" name="animal" type="text" placeholder="Favorite animal..." required/>
+            <label for="movie">Movie::</label>
+            <input id="movie" name="movie" type="text" placeholder="Favorite movie..." required/>
+            <label for="education">Education:</label>
+            <input id="education" name="education" type="text" placeholder="education..." required/>
             <button type="submit">Volgende</button>
         </form>
     </section>

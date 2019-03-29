@@ -1,15 +1,17 @@
 <main>
     <section>
         <form action="/data" method="post">
-            <input name="drink" type="text" placeholder="Favorite drink..."/>
-            <label>Favorite season:</label>
-            <select name="season">
+            <label for="drink">Drink:</label>
+            <input id="drink" name="drink" type="text" placeholder="Favorite drink..." required/>
+            <label for="season">Favorite season:</label>
+            <select id="season" name="season">
                 <option value="summer">Summer</option>
                 <option value="winter">Winter</option>
                 <option value="spring">Spring</option>
                 <option value="autumn">Autumn</option>
             </select>
-            <input name="age" type="text" placeholder="Your age..."/>
+            <label for="age">Age:</label>
+            <input id="age" name="age" type="text" placeholder="Your age..." required/>
             <button type="submit">Volgende</button>
         </form>
     </section>

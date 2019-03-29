@@ -1,9 +1,12 @@
 <main>
     <section id="nojs-form">
         <form action="/vraag2" method="post">
-            <input name="name" type="text" placeholder="Name..."/>
-            <input name="date" type="date" placeholder="dd-mm-jjjj"/>
-            <input name="colour" type="text" placeholder="Favorite colour..."/>
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text" placeholder="Name..." required/>
+            <label for="date">Date:</label>
+            <input id="date" name="date" type="date" placeholder="dd-mm-jjjj" required/>
+            <label for="colour">Colour:</label>
+            <input id="colour" name="colour" type="text" placeholder="Favorite colour..." required/>
             <button type="submit">Volgende</button>
         </form>
     </section>

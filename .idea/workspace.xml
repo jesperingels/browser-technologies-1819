@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="996d3ad8-1d75-41e3-8f77-36a4ae997c9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/db/db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/db/db.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="996d3ad8-1d75-41e3-8f77-36a4ae997c9d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -49,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/public/db/db.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="433" lean-forward="true" selection-start-column="433" selection-end-column="433" />
+              <caret column="628" lean-forward="true" selection-start-column="628" selection-end-column="628" />
             </state>
           </provider>
         </entry>
@@ -251,12 +246,12 @@
       <workItem from="1553681483293" duration="9887000" />
       <workItem from="1553783691931" duration="3239000" />
       <workItem from="1553806051253" duration="1544000" />
-      <workItem from="1553847581904" duration="3214000" />
+      <workItem from="1553847581904" duration="3324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60334000" />
+    <option name="totallyTimeSpent" value="60444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="713" extended-state="6" />
@@ -453,7 +448,7 @@
     <entry file="file://$PROJECT_DIR$/public/db/db.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="433" lean-forward="true" selection-start-column="433" selection-end-column="433" />
+          <caret column="628" lean-forward="true" selection-start-column="628" selection-end-column="628" />
         </state>
       </provider>
     </entry>

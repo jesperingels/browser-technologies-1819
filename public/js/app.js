@@ -38,11 +38,7 @@ if(document.querySelector('main') && !document.querySelector('main.overview')) {
         '        </form>\n' +
         '        <button id="send-form">Verstuur</button>\n' +
         '    </section>');
-
-
 }
-
-
 
     var userInputs = document.querySelectorAll('input[name]');
     var userSelect = document.querySelector("select");

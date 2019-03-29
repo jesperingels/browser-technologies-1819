@@ -105,9 +105,14 @@ if(sendForm) {
         userSelect.style.webkitAnimationPlayState = 'running';
         label.style.display = 'none';
 
-        setTimeout(function () {
+        if(typeof setTimeout == 'function') {
+            setTimeout(function () {
+                form1.submit();
+            },2500 )
+        } else {
             form1.submit();
-        },2500 )
+        }
+
 
     })
 }
